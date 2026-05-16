@@ -1,0 +1,553 @@
+[
+  {
+    "slug": "toyota-vios",
+    "make": "Toyota",
+    "model": "Vios",
+    "yearFrom": 2007,
+    "yearTo": 2023,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "60B24L", "equivalent": "46B24L", "retailPrice": 120, "cca": 390, "capacityAh": 45 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Toyota Vios use?",
+        "a": "The Toyota Vios (2007–2023) uses the Amaron HILIFE 60B24L (replaces 46B24L), rated at 390 CCA and 45Ah. It is a standard lead-acid battery with no special programming required after replacement."
+      },
+      {
+        "q": "How long does a Toyota Vios battery last in Singapore?",
+        "a": "Toyota Vios batteries in Singapore typically last 2 to 2.5 years. The Vios is one of the most common cars on Singapore roads, and our workshop data shows the 60B24L averaging around 2 years in sheltered HDB carpark conditions — the heat buildup from afternoon sun is the primary cause of early failure. Replacing proactively at 2 years rather than waiting for a breakdown is strongly recommended."
+      },
+      {
+        "q": "How much does a Toyota Vios battery replacement cost in Singapore?",
+        "a": "The Amaron HILIFE 60B24L for the Toyota Vios is priced at $120 including GST. Workshop installation is typically $10–20 at a local workshop. Total replacement cost is usually $130–140 all-in."
+      },
+      {
+        "q": "Can I upgrade the Toyota Vios battery to a larger size?",
+        "a": "You can upgrade from 60B24L to 85D23L on the Toyota Vios if you have added aftermarket audio equipment or other accessories. For standard use, the 60B24L is the OEM-specified size and fits the battery tray correctly — an upgrade is generally unnecessary."
+      },
+      {
+        "q": "Is Amaron a good battery for the Toyota Vios?",
+        "a": "Yes. Amaron is the most widely installed aftermarket battery brand in Singapore, and the HILIFE 60B24L is specifically engineered for tropical heat. In our experience, Amaron batteries consistently outlast generic no-name alternatives by 6–12 months in Singapore conditions."
+      }
+    ]
+  },
+  {
+    "slug": "toyota-corolla-altis",
+    "make": "Toyota",
+    "model": "Corolla Altis",
+    "yearFrom": 2002,
+    "yearTo": 2019,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Toyota Corolla Altis use?",
+        "a": "The Toyota Corolla Altis (2002–2019) uses the Amaron HILIFE 85D23L (replaces 55D23L), rated at 500 CCA and 55Ah. No battery management system programming is required after replacement."
+      },
+      {
+        "q": "How long does a Toyota Corolla Altis battery last in Singapore?",
+        "a": "The Toyota Corolla Altis battery typically lasts 2–3 years in Singapore. Older Altis models (pre-2014) with fewer electronics tend to be easier on batteries, while the 2014–2019 facelift models with more electrical features in stop-start traffic can see shorter battery life. A battery over 2.5 years old should be load-tested."
+      },
+      {
+        "q": "How much does a Toyota Corolla Altis battery cost in Singapore?",
+        "a": "The Amaron HILIFE 85D23L for the Toyota Corolla Altis is priced at $140 including GST. Workshop installation is typically $10–20, making the all-in replacement cost around $150–160."
+      },
+      {
+        "q": "Can I use a 60B24L instead of 85D23L on the Toyota Corolla Altis?",
+        "a": "No. The Toyota Corolla Altis requires the 85D23L (or equivalent 55D23L), which is physically larger and provides more capacity than the 60B24L. Using the wrong size can result in poor fit and insufficient power for the car's electrical system."
+      },
+      {
+        "q": "Is the Toyota Corolla Altis battery easy to replace?",
+        "a": "Yes. The Corolla Altis uses a standard lead-acid battery with no battery management system. Replacement is straightforward at any local workshop and takes about 20 minutes. No programming or reset is needed after fitting the new battery."
+      }
+    ]
+  },
+  {
+    "slug": "toyota-camry",
+    "make": "Toyota",
+    "model": "Camry",
+    "yearFrom": 2006,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Toyota Camry use?",
+        "a": "The Toyota Camry (2006–2024) uses the Amaron HILIFE 85D23L (replaces 55D23L), rated at 500 CCA and 55Ah. Note: if you have the Camry Hybrid (AHV40/AHV50), the 12V auxiliary battery specification may differ — WhatsApp us with your exact model year to confirm."
+      },
+      {
+        "q": "How long does a Toyota Camry battery last in Singapore?",
+        "a": "Toyota Camry batteries in Singapore typically last 2–3 years. The Camry is frequently used as an executive car and for airport runs — those accumulating high mileage with frequent short trips tend to see faster battery depletion, as the alternator has less time to fully recharge between stops."
+      },
+      {
+        "q": "How much does a Toyota Camry battery replacement cost in Singapore?",
+        "a": "The Amaron HILIFE 85D23L for the Toyota Camry is priced at $140 including GST. All-in replacement including installation at a partner workshop is typically $150–160."
+      }
+    ]
+  },
+  {
+    "slug": "toyota-prius",
+    "make": "Toyota",
+    "model": "Prius",
+    "yearFrom": 2012,
+    "yearTo": 2022,
+    "note": "12V auxiliary battery only — not the hybrid traction battery",
+    "batteries": [
+      { "type": "EFB", "brand": "Amaron", "series": "EFB", "partNo": "Q85", "equivalent": "100D23L", "retailPrice": 220, "cca": 560, "capacityAh": 55 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Toyota Prius need replacing?",
+        "a": "The Toyota Prius has two batteries: the large high-voltage traction battery (for the electric motor) and a small 12V auxiliary battery. This page covers the 12V auxiliary battery, which commonly needs replacing after 2–3 years. The 12V battery on the Prius (2012–2022) is the Amaron EFB Q85 (560 CCA, 55Ah). The traction battery is a separate system and is not covered here."
+      },
+      {
+        "q": "How do I know if my Toyota Prius needs a new 12V battery or traction battery?",
+        "a": "If your Prius will not enter 'Ready' mode and shows a red triangle warning, the 12V auxiliary battery is the first thing to check — it is the more common failure. If the car starts but hybrid performance has degraded or fuel economy has dropped significantly over months, that may indicate traction battery wear. For 12V battery replacement, we can help. Traction battery issues require a Toyota hybrid specialist."
+      },
+      {
+        "q": "How long does the Toyota Prius 12V battery last in Singapore?",
+        "a": "The Toyota Prius 12V auxiliary battery typically lasts 2–3 years in Singapore. The EFB Q85 is specified because the Prius 12V battery also powers the startup sequence for the hybrid system, making reliability critical. A failing 12V battery often presents as the car not entering 'Ready' mode, even though the traction battery is fine."
+      },
+      {
+        "q": "How much does a Toyota Prius 12V battery replacement cost in Singapore?",
+        "a": "The Amaron EFB Q85 for the Toyota Prius 12V auxiliary battery is priced at $220 including GST. Workshop installation is typically $15–25. Total cost is usually $235–245."
+      }
+    ]
+  },
+  {
+    "slug": "toyota-estima",
+    "make": "Toyota",
+    "model": "Estima",
+    "yearFrom": 2006,
+    "yearTo": 2019,
+    "batteryNote": "Factory-fitted with 85D23L, but Singapore owners commonly upgrade to 110D26L for extended service life. The Estima's enclosed engine bay retains heat after parking, accelerating battery wear. The 110D26L upgrade is cost-effective given the 6–12 month extended lifespan.",
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "110D26L", "equivalent": "85D23L", "retailPrice": 175, "cca": 620, "capacityAh": 70 },
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Toyota Estima use?",
+        "a": "The Toyota Estima (2006–2019) is factory-fitted with an 85D23L, but Singapore owners frequently upgrade to the Amaron HILIFE 110D26L (620 CCA, 70Ah). The Estima's larger body and electrical load — including its power sliding doors — mean the 85D23L reaches the end of its life faster in Singapore heat. The 110D26L provides a meaningful reserve capacity buffer and fits the battery tray without modification."
+      },
+      {
+        "q": "Should I use 85D23L or 110D26L for my Toyota Estima?",
+        "a": "We recommend the 110D26L for Singapore conditions. Estima owners using the 85D23L report average battery life of around 2 years. Owners who upgrade to the 110D26L typically get 2.5–3 years. The price difference ($140 vs $175) is easily offset by the extended service life and the reduced risk of a breakdown."
+      },
+      {
+        "q": "How long does a Toyota Estima battery last in Singapore?",
+        "a": "With the OEM 85D23L, Toyota Estima batteries in Singapore average about 2 years. Vehicles parked in sheltered HDB carparks that receive afternoon sun experience the most heat stress — the Estima's enclosed engine bay retains heat for hours after parking, continuing to stress the battery even when the car is not running. Upgrading to the 110D26L extends average lifespan to 2.5–3 years."
+      },
+      {
+        "q": "Does the Toyota Estima battery need programming after replacement?",
+        "a": "No. The Toyota Estima does not have a Battery Management System (BMS) that requires programming after a battery change. Replacement is straightforward and can be completed at any local workshop in about 20–30 minutes."
+      }
+    ]
+  },
+  {
+    "slug": "toyota-alphard",
+    "make": "Toyota",
+    "model": "Alphard",
+    "yearFrom": 2008,
+    "yearTo": 2024,
+    "batteryNote": "The Alphard's large body, electric sliding doors, and entertainment systems place higher electrical demands than a typical sedan. The OEM battery is 85D23L, but Singapore conditions make 110D26L the practical minimum for family use. Commercial Alphard operators (airport transfers, regular charters with 15+ cold starts per day) should use 125D31L.",
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "110D26L", "equivalent": "85D23L", "retailPrice": 175, "cca": 620, "capacityAh": 70 },
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "125D31L", "equivalent": "110D26L", "retailPrice": 200, "cca": 720, "capacityAh": 90 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Toyota Alphard use?",
+        "a": "The Toyota Alphard (2008–2024) is best served by the Amaron HILIFE 110D26L (620 CCA, 70Ah) for typical family use. Commercial Alphard operators — particularly those doing airport runs with 15 or more cold starts per day — should use the 125D31L (720 CCA, 90Ah). The larger battery handles high-frequency starting significantly better and has a longer service life under commercial conditions."
+      },
+      {
+        "q": "Should I use 110D26L or 125D31L for my Toyota Alphard?",
+        "a": "If you use your Alphard as a family car with electric sliding doors, the 110D26L is our recommendation at $175. If your Alphard is used for commercial purposes — airport transfers, regular charters, or any use involving more than 10–15 cold starts per day — upgrade to the 125D31L at $200. The 110D26L in heavy commercial use typically shows significant capacity loss within 18 months."
+      },
+      {
+        "q": "How long does a Toyota Alphard battery last in Singapore?",
+        "a": "Family-use Alphard with 110D26L: typically 2.5–3 years. Commercial-use Alphard with 125D31L: typically 2–2.5 years. The electric sliding doors, entertainment systems, and large interior lighting add to the electrical load, making the Alphard more battery-intensive than a standard sedan."
+      },
+      {
+        "q": "Does the Toyota Alphard battery need programming after replacement?",
+        "a": "No. The Toyota Alphard does not use a Battery Management System requiring programming. After fitting a new battery, the car's systems recalibrate automatically within a few driving cycles. Replacement takes about 20–30 minutes at a local workshop."
+      }
+    ]
+  },
+  {
+    "slug": "toyota-vellfire",
+    "make": "Toyota",
+    "model": "Vellfire",
+    "yearFrom": 2010,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "110D26L", "equivalent": "85D23L", "retailPrice": 175, "cca": 620, "capacityAh": 70 }
+    ]
+  },
+  {
+    "slug": "toyota-harrier",
+    "make": "Toyota",
+    "model": "Harrier",
+    "yearFrom": 2014,
+    "yearTo": 2024,
+    "batteryNote": "The Harrier is equipped with a Start-Stop system that requires an EFB or AGM battery. Fitting a standard lead-acid battery will cause it to fail within 3–6 months.",
+    "batteries": [
+      { "type": "EFB", "brand": "Amaron", "series": "EFB", "partNo": "Q85", "equivalent": "100D23L", "retailPrice": 220, "cca": 560, "capacityAh": 55 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Toyota Harrier use?",
+        "a": "The Toyota Harrier (2014–2024) uses the Amaron EFB Q85 (560 CCA, 55Ah, replaces 100D23L). The Q85 EFB is specifically required because the Harrier is equipped with a Start-Stop system — a standard lead-acid battery will not work correctly in this car."
+      },
+      {
+        "q": "Can I use a standard battery in the Toyota Harrier?",
+        "a": "No. The Toyota Harrier's Start-Stop system requires an EFB (Enhanced Flooded Battery) or AGM battery. Fitting a standard lead-acid battery in a Harrier will cause it to fail within 3–6 months. The Start-Stop system cycles the battery far more frequently than a conventional car, and only EFB/AGM batteries are designed to handle this load. Always replace with an EFB or AGM."
+      },
+      {
+        "q": "How long does a Toyota Harrier EFB battery last in Singapore?",
+        "a": "The Amaron EFB Q85 in the Toyota Harrier typically lasts 2.5–3 years in Singapore. EFB batteries have higher cycle durability than standard batteries, compensating for the extra stress from frequent Start-Stop cycling. Harrier owners who previously installed a standard battery report failure in under a year."
+      },
+      {
+        "q": "How much does a Toyota Harrier battery replacement cost in Singapore?",
+        "a": "The Amaron EFB Q85 for the Toyota Harrier is priced at $220 including GST. The higher price compared to a standard battery reflects the EFB technology required by the Start-Stop system. Total all-in cost including workshop installation is typically $235–245."
+      },
+      {
+        "q": "Does the Toyota Harrier battery need programming after replacement?",
+        "a": "The Toyota Harrier does not strictly require battery registration the way BMW and Mercedes do, but it is good practice to reset the battery health monitor using an OBD-II scanner after fitting a new battery. This ensures the engine management system correctly recognises the full capacity of the new battery and manages the Start-Stop system optimally."
+      }
+    ]
+  },
+  {
+    "slug": "toyota-wish",
+    "make": "Toyota",
+    "model": "Wish",
+    "yearFrom": 2009,
+    "yearTo": 2017,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "60B24L", "equivalent": "46B24L", "retailPrice": 120, "cca": 390, "capacityAh": 45 }
+    ]
+  },
+  {
+    "slug": "toyota-chr",
+    "make": "Toyota",
+    "model": "C-HR",
+    "yearFrom": 2017,
+    "yearTo": 2024,
+    "batteryNote": "The C-HR is equipped with a Start-Stop system. An EFB or AGM battery is required — do not fit a standard lead-acid battery.",
+    "batteries": [
+      { "type": "EFB", "brand": "Amaron", "series": "EFB", "partNo": "Q85", "equivalent": "100D23L", "retailPrice": 220, "cca": 560, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "toyota-rav4",
+    "make": "Toyota",
+    "model": "RAV4",
+    "yearFrom": 2013,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "honda-jazz",
+    "make": "Honda",
+    "model": "Jazz",
+    "yearFrom": 2008,
+    "yearTo": 2021,
+    "batteryNote": "Honda Jazz GE (2008–2013) uses a standard 60B24L. Jazz GK (2014–2021) with i-STOP Start-Stop requires an EFB battery. Check your dashboard for an i-STOP indicator to confirm which applies to your car.",
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "60B24L", "equivalent": "46B24L", "retailPrice": 120, "cca": 390, "capacityAh": 45 },
+      { "type": "EFB", "brand": "Amaron", "series": "EFB", "partNo": "N55L", "equivalent": "80B24L", "retailPrice": 160, "cca": 420, "capacityAh": 55 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Honda Jazz use?",
+        "a": "The Honda Jazz (2008–2021) typically uses the Amaron HILIFE 60B24L (390 CCA, 45Ah). However, Jazz GK models (2014–2021) equipped with i-STOP Start-Stop technology require an EFB battery such as the Amaron N55L (420 CCA, 55Ah). Check your dashboard for an i-STOP button or indicator to confirm which applies to your car."
+      },
+      {
+        "q": "Does my Honda Jazz need an EFB battery?",
+        "a": "It depends on the generation. Honda Jazz GE (2008–2013) uses a standard 60B24L — no special battery required. Honda Jazz GK (2014–2021) with i-STOP Start-Stop requires an EFB battery. If you see an 'i-STOP' indicator on your dashboard, use the EFB variant. Fitting a standard battery in an i-STOP Jazz will cause premature failure within months."
+      },
+      {
+        "q": "How long does a Honda Jazz battery last in Singapore?",
+        "a": "Standard Jazz (60B24L): 2–2.5 years in Singapore. Jazz with i-STOP and EFB battery: 2.5–3 years. The Jazz is a compact car with relatively low electrical demands, which is why battery life tends to be on the better end for Singapore conditions."
+      },
+      {
+        "q": "How much does a Honda Jazz battery replacement cost in Singapore?",
+        "a": "Standard Jazz (no i-STOP): Amaron HILIFE 60B24L at $120 including GST. Jazz with i-STOP: Amaron EFB N55L at $160 including GST. Workshop installation is $10–20. Total all-in cost is $130–180 depending on your variant."
+      }
+    ]
+  },
+  {
+    "slug": "honda-civic",
+    "make": "Honda",
+    "model": "Civic",
+    "yearFrom": 2016,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the Honda Civic use?",
+        "a": "The Honda Civic (2016–2024) uses the Amaron HILIFE 85D23L (replaces 55D23L), rated at 500 CCA and 55Ah. This is a standard lead-acid battery with no battery management system, making replacement straightforward at any local workshop."
+      },
+      {
+        "q": "How long does a Honda Civic battery last in Singapore?",
+        "a": "The Honda Civic battery typically lasts 2–3 years in Singapore. The 2022–2024 Civic e:HEV hybrid models have a different 12V auxiliary battery setup — if you have a hybrid Civic, please WhatsApp us to confirm the correct specification for your variant."
+      },
+      {
+        "q": "How much does a Honda Civic battery replacement cost in Singapore?",
+        "a": "The Amaron HILIFE 85D23L for the Honda Civic is priced at $140 including GST. Workshop installation is typically $10–20. Total all-in replacement cost is usually $150–160."
+      }
+    ]
+  },
+  {
+    "slug": "honda-accord",
+    "make": "Honda",
+    "model": "Accord",
+    "yearFrom": 2013,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "honda-hrv",
+    "make": "Honda",
+    "model": "HR-V",
+    "yearFrom": 2015,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "60B24L", "equivalent": "46B24L", "retailPrice": 120, "cca": 390, "capacityAh": 45 }
+    ]
+  },
+  {
+    "slug": "honda-crv",
+    "make": "Honda",
+    "model": "CR-V",
+    "yearFrom": 2012,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "honda-freed",
+    "make": "Honda",
+    "model": "Freed",
+    "yearFrom": 2009,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "60B24L", "equivalent": "46B24L", "retailPrice": 120, "cca": 390, "capacityAh": 45 }
+    ]
+  },
+  {
+    "slug": "nissan-sylphy",
+    "make": "Nissan",
+    "model": "Sylphy",
+    "yearFrom": 2012,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "nissan-xtrail",
+    "make": "Nissan",
+    "model": "X-Trail",
+    "yearFrom": 2014,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "mazda-3",
+    "make": "Mazda",
+    "model": "Mazda 3",
+    "yearFrom": 2014,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "mazda-cx5",
+    "make": "Mazda",
+    "model": "CX-5",
+    "yearFrom": 2017,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "PRO", "partNo": "90D23L", "equivalent": "75D23L", "retailPrice": 160, "cca": 520, "capacityAh": 65 }
+    ]
+  },
+  {
+    "slug": "hyundai-avante",
+    "make": "Hyundai",
+    "model": "Avante",
+    "yearFrom": 2011,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "60B24L", "equivalent": "46B24L", "retailPrice": 120, "cca": 390, "capacityAh": 45 }
+    ]
+  },
+  {
+    "slug": "hyundai-tucson",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "yearFrom": 2016,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "PRO DIN", "partNo": "DIN66L", "equivalent": "DIN66", "retailPrice": 160, "cca": 600, "capacityAh": 66 }
+    ]
+  },
+  {
+    "slug": "mitsubishi-attrage",
+    "make": "Mitsubishi",
+    "model": "Attrage",
+    "yearFrom": 2013,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "50B20L", "equivalent": "38B20L", "retailPrice": 105, "cca": 330, "capacityAh": 38 }
+    ]
+  },
+  {
+    "slug": "mitsubishi-asx",
+    "make": "Mitsubishi",
+    "model": "ASX",
+    "yearFrom": 2013,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "subaru-xv",
+    "make": "Subaru",
+    "model": "XV",
+    "yearFrom": 2017,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "HILIFE", "partNo": "85D23L", "equivalent": "55D23L", "retailPrice": 140, "cca": 500, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "kia-cerato",
+    "make": "Kia",
+    "model": "Cerato",
+    "yearFrom": 2013,
+    "yearTo": 2024,
+    "batteries": [
+      { "type": "Standard", "brand": "Amaron", "series": "PRO DIN", "partNo": "DIN55L", "equivalent": "DIN55", "retailPrice": 150, "cca": 540, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "volkswagen-golf",
+    "make": "Volkswagen",
+    "model": "Golf",
+    "yearFrom": 2013,
+    "yearTo": 2024,
+    "batteryNote": "Golf models with Start-Stop (most 2013+ variants) require the AGM LN3. Confirm by checking if your Golf has a Start-Stop button — if yes, use AGM only.",
+    "batteries": [
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN3", "equivalent": "DIN70", "retailPrice": 280, "cca": 760, "capacityAh": 70 },
+      { "type": "Standard", "brand": "Amaron", "series": "PRO DIN", "partNo": "DIN55L", "equivalent": "DIN55", "retailPrice": 150, "cca": 540, "capacityAh": 55 }
+    ]
+  },
+  {
+    "slug": "bmw-3-series",
+    "make": "BMW",
+    "model": "3 Series",
+    "yearFrom": 2012,
+    "yearTo": 2024,
+    "batteryNote": "BMW 3 Series requires AGM battery and mandatory battery registration (BMS reset) after replacement. Do not fit a standard or EFB battery — the car's charging system is calibrated for AGM and will overcharge any other type.",
+    "batteries": [
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN4", "equivalent": "DIN80", "retailPrice": 300, "cca": 800, "capacityAh": 80 },
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN3", "equivalent": "DIN70", "retailPrice": 280, "cca": 760, "capacityAh": 70 }
+    ],
+    "faq": [
+      {
+        "q": "What battery does the BMW 3 Series use?",
+        "a": "The BMW 3 Series (2012–2024) uses an AGM battery — the Amaron AGM LN4 (800 CCA, 80Ah) for most variants, or the LN3 (760 CCA, 70Ah) for smaller-engine models. BMW uses AGM to support its EfficientDynamics Start-Stop system and brake energy regeneration. Never fit a standard lead-acid battery in a BMW 3 Series."
+      },
+      {
+        "q": "Does the BMW 3 Series battery need to be registered after replacement?",
+        "a": "Yes — this is the most critical thing BMW owners need to know. After fitting a new battery, the Battery Management System (BMS) must be reset and the new battery registered using a compatible diagnostic tool (ISTA, INPA, or a quality OBD reader with BMW battery registration). Without registration, the BMS will continue charging the new battery as if it were the old, degraded one — overcharging it and significantly shortening its life. Always replace BMW batteries at a workshop equipped with BMW diagnostic tools."
+      },
+      {
+        "q": "How long does a BMW 3 Series battery last in Singapore?",
+        "a": "BMW 3 Series AGM batteries typically last 3–4 years in Singapore when properly registered and maintained. However, BMWs left unused for more than 2 weeks are prone to battery drain due to the car's continuous background current draw — a known BMW characteristic. If leaving your car unused for extended periods, connect a battery maintainer (trickle charger)."
+      },
+      {
+        "q": "How much does a BMW 3 Series battery replacement cost in Singapore?",
+        "a": "The Amaron AGM LN4 for the BMW 3 Series is priced at $300 including GST. Battery registration at a BMW-capable workshop adds $30–60. Total cost is typically $330–360 — significantly lower than BMW authorised service centre pricing, which often exceeds $500 for the same job."
+      },
+      {
+        "q": "Can I fit a non-AGM battery in a BMW 3 Series to save money?",
+        "a": "No. Fitting a standard or EFB battery in a BMW 3 Series will trigger warning lights and damage the battery management system. The car's charging system is specifically calibrated for AGM batteries — it will overcharge any other type, causing rapid failure and potentially damaging the alternator. The AGM battery is non-negotiable on the F30/G20 BMW 3 Series."
+      }
+    ]
+  },
+  {
+    "slug": "bmw-5-series",
+    "make": "BMW",
+    "model": "5 Series",
+    "yearFrom": 2011,
+    "yearTo": 2024,
+    "batteryNote": "BMW 5 Series requires AGM battery and mandatory battery registration (BMS reset) after replacement.",
+    "batteries": [
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN4", "equivalent": "DIN80", "retailPrice": 300, "cca": 800, "capacityAh": 80 },
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN5", "equivalent": "DIN100", "retailPrice": 320, "cca": 900, "capacityAh": 100 }
+    ]
+  },
+  {
+    "slug": "mercedes-c-class",
+    "make": "Mercedes-Benz",
+    "model": "C-Class",
+    "yearFrom": 2014,
+    "yearTo": 2024,
+    "batteryNote": "Mercedes-Benz C-Class requires AGM battery and battery coding/registration after replacement. Use a workshop with Mercedes Star Diagnostic or compatible tool.",
+    "batteries": [
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN4", "equivalent": "DIN80", "retailPrice": 300, "cca": 800, "capacityAh": 80 },
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN3", "equivalent": "DIN70", "retailPrice": 280, "cca": 760, "capacityAh": 70 }
+    ]
+  },
+  {
+    "slug": "mercedes-e-class",
+    "make": "Mercedes-Benz",
+    "model": "E-Class",
+    "yearFrom": 2013,
+    "yearTo": 2024,
+    "batteryNote": "Mercedes-Benz E-Class requires AGM battery and battery coding/registration after replacement.",
+    "batteries": [
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN4", "equivalent": "DIN80", "retailPrice": 300, "cca": 800, "capacityAh": 80 },
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN5", "equivalent": "DIN100", "retailPrice": 320, "cca": 900, "capacityAh": 100 }
+    ]
+  },
+  {
+    "slug": "audi-a4",
+    "make": "Audi",
+    "model": "A4",
+    "yearFrom": 2013,
+    "yearTo": 2024,
+    "batteryNote": "Audi A4 requires AGM battery and battery adaptation/registration using VCDS or equivalent diagnostic tool after replacement.",
+    "batteries": [
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN4", "equivalent": "DIN80", "retailPrice": 300, "cca": 800, "capacityAh": 80 },
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN3", "equivalent": "DIN70", "retailPrice": 280, "cca": 760, "capacityAh": 70 }
+    ]
+  },
+  {
+    "slug": "audi-a6",
+    "make": "Audi",
+    "model": "A6",
+    "yearFrom": 2012,
+    "yearTo": 2024,
+    "batteryNote": "Audi A6 requires AGM battery and battery adaptation/registration after replacement.",
+    "batteries": [
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN4", "equivalent": "DIN80", "retailPrice": 300, "cca": 800, "capacityAh": 80 },
+      { "type": "AGM", "brand": "Amaron", "series": "AGM", "partNo": "LN5", "equivalent": "DIN100", "retailPrice": 320, "cca": 900, "capacityAh": 100 }
+    ]
+  }
+]
