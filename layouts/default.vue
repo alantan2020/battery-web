@@ -9,7 +9,7 @@
         <div class="flex items-center gap-4">
           <NuxtLink to="/price" class="text-sm text-gray-600 font-medium hover:text-blue-600">价格表</NuxtLink>
           <a
-            href="https://wa.me/6581525875"
+            href="https://wa.me/6581525875?text=Hi%2C%20I%27d%20like%20to%20check%20battery%20price."
             target="_blank"
             class="text-sm text-green-600 font-medium"
           >
