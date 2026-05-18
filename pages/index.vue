@@ -6,7 +6,7 @@
       <h1 class="text-3xl font-bold text-gray-800 mb-3">
         Car Battery Replacement Singapore
       </h1>
-      <p class="text-gray-500 mb-6">Find the right Amaron battery for your car — price, specs, and nearby installation.</p>
+      <p class="text-gray-500 mb-6">Your Trusted Automotive Supply Butler. Find the right Amaron battery — price, specs, and nearby installation.</p>
 
       <!-- Search -->
       <div class="max-w-md mx-auto">
