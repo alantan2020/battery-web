@@ -45,7 +45,7 @@
       </template>
 
       <p v-if="visibleMakes.length === 0" class="text-center text-gray-400 py-12">
-        No results for "{{ search }}". <a href="https://wa.me/6581525879" class="text-blue-600">Ask us on WhatsApp</a>.
+        No results for "{{ search }}". <a href="https://wa.me/6581525875" class="text-blue-600">Ask us on WhatsApp</a>.
       </p>
     </section>
 

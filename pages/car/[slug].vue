@@ -229,7 +229,7 @@ const templateFaqs = car ? [
 
 const faqs = car?.faq?.length ? car.faq.map(f => ({ q: f.q, a: f.a })) : templateFaqs
 
-const WA_NUMBER = '6581525879'
+const WA_NUMBER = '6581525875'
 
 const ownerWaLink = car
   ? `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Hi, I'd like to check the battery price for my ${car.make} ${car.model} (${car.yearFrom}–${car.yearTo}).`)}`

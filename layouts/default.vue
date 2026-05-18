@@ -7,7 +7,7 @@
           <span class="text-sm text-gray-500">Battery</span>
         </NuxtLink>
         <a
-          href="https://wa.me/6581525879"
+          href="https://wa.me/6581525875"
           target="_blank"
           class="text-sm text-green-600 font-medium"
         >
@@ -38,7 +38,7 @@ useHead({
         '@type': 'LocalBusiness',
         name: 'SGCarPass Battery',
         url: 'https://battery.sgcarpass.com',
-        telephone: '+6581525879',
+        telephone: '+6581525875',
         areaServed: 'Singapore',
         description: 'Genuine Amaron car battery supplier in Singapore. Competitive prices, same-day workshop installation for all car makes and models.',
         sameAs: [],
