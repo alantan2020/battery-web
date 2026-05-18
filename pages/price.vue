@@ -39,8 +39,8 @@
     <!-- Count -->
     <p class="px-4 py-2 text-xs text-gray-400">{{ filtered.length }} 款</p>
 
-    <!-- Product cards -->
-    <div class="px-4 pb-10 space-y-3">
+    <!-- Product cards (mobile only) -->
+    <div class="md:hidden px-4 pb-10 space-y-3">
       <div
         v-for="p in filtered"
         :key="p.brand + p.series + p.model"
@@ -75,12 +75,52 @@
         <div class="text-xs text-gray-400">简码 <span class="font-mono text-gray-500">{{ p.wa }}</span></div>
       </div>
 
-      <!-- No results -->
+      <!-- No results (mobile) -->
       <div v-if="filtered.length === 0" class="text-center py-16 text-gray-400">
         <div class="text-4xl mb-3">🔋</div>
         <div class="text-sm">没有找到匹配的型号</div>
         <div class="text-xs mt-1">试试只输入数字部分，如 60B24L 改搜 60</div>
       </div>
+    </div>
+
+    <!-- Desktop table (md and above) -->
+    <div class="hidden md:block px-6 pb-10">
+      <!-- No results (desktop) -->
+      <div v-if="filtered.length === 0" class="text-center py-16 text-gray-400">
+        <div class="text-4xl mb-3">🔋</div>
+        <div class="text-sm">没有找到匹配的型号</div>
+      </div>
+      <table v-else class="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-sm text-sm">
+        <thead>
+          <tr class="bg-gray-800 text-white text-xs tracking-wide">
+            <th class="px-4 py-3 text-left">品牌</th>
+            <th class="px-4 py-3 text-left">系列</th>
+            <th class="px-4 py-3 text-left font-bold">型号</th>
+            <th class="px-4 py-3 text-left text-gray-400">等效</th>
+            <th class="px-4 py-3 text-right text-blue-300">零售</th>
+            <th class="px-4 py-3 text-right text-green-300">×1.09</th>
+            <th class="px-4 py-3 text-left text-purple-300">简码</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            v-for="p in filtered"
+            :key="p.brand + p.series + p.model"
+            class="border-t border-gray-100 hover:bg-blue-50 transition-colors"
+          >
+            <td class="px-4 py-2.5 text-gray-600">{{ p.brand }}</td>
+            <td class="px-4 py-2.5">
+              <span class="text-gray-600">{{ p.series }}</span>
+              <span class="ml-2 text-xs px-1.5 py-0.5 rounded-full font-medium" :class="badgeClass(p.type)">{{ p.type }}</span>
+            </td>
+            <td class="px-4 py-2.5 font-bold text-gray-900 tracking-wide">{{ p.model }}</td>
+            <td class="px-4 py-2.5 text-gray-400 text-xs">{{ p.equiv || '-' }}</td>
+            <td class="px-4 py-2.5 text-right font-bold text-blue-700">${{ p.retail.toFixed(2) }}</td>
+            <td class="px-4 py-2.5 text-right font-bold text-green-700">${{ p.final.toFixed(2) }}</td>
+            <td class="px-4 py-2.5 font-mono text-purple-700 text-xs">{{ p.wa }}</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
