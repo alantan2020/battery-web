@@ -96,10 +96,10 @@
             <th class="px-4 py-3 text-left">品牌</th>
             <th class="px-4 py-3 text-left">系列</th>
             <th class="px-4 py-3 text-left font-bold">型号</th>
-            <th class="px-4 py-3 text-left text-gray-400">等效</th>
             <th class="px-4 py-3 text-right text-blue-300">零售</th>
             <th class="px-4 py-3 text-right text-green-300">×1.09</th>
             <th class="px-4 py-3 text-left text-purple-300">简码</th>
+            <th class="px-4 py-3 text-left text-gray-400">等效</th>
           </tr>
         </thead>
         <tbody>
@@ -114,10 +114,10 @@
               <span class="ml-2 text-xs px-1.5 py-0.5 rounded-full font-medium" :class="badgeClass(p.type)">{{ p.type }}</span>
             </td>
             <td class="px-4 py-2.5 font-bold text-gray-900 tracking-wide">{{ p.model }}</td>
-            <td class="px-4 py-2.5 text-gray-400 text-xs">{{ p.equiv || '-' }}</td>
             <td class="px-4 py-2.5 text-right font-bold text-blue-700">${{ p.retail.toFixed(2) }}</td>
             <td class="px-4 py-2.5 text-right font-bold text-green-700">${{ p.final.toFixed(2) }}</td>
             <td class="px-4 py-2.5 font-mono text-purple-700 text-xs">{{ p.wa }}</td>
+            <td class="px-4 py-2.5 text-gray-400 text-xs">{{ p.equiv || '-' }}</td>
           </tr>
         </tbody>
       </table>
