@@ -6,13 +6,16 @@
           <span class="text-xl font-bold text-blue-600">SGCarPass</span>
           <span class="text-sm text-gray-500">汽车供应链管家</span>
         </NuxtLink>
-        <a
-          href="https://wa.me/6581525875"
-          target="_blank"
-          class="text-sm text-green-600 font-medium"
-        >
-          WhatsApp Us
-        </a>
+        <div class="flex items-center gap-4">
+          <NuxtLink to="/price" class="text-sm text-gray-600 font-medium hover:text-blue-600">价格表</NuxtLink>
+          <a
+            href="https://wa.me/6581525875"
+            target="_blank"
+            class="text-sm text-green-600 font-medium"
+          >
+            WhatsApp Us
+          </a>
+        </div>
       </div>
     </header>
 
