@@ -161,6 +161,46 @@
   "AMARON AGM LN5 (DIN100)": {
    "series": "Amaron AGE Battery",
    "price": 320
+  },
+  "M42L": {
+   "series": "Amaron EFB",
+   "price": 140
+  },
+  "N55L": {
+   "series": "Amaron EFB",
+   "price": 160
+  },
+  "Q85": {
+   "series": "Amaron EFB",
+   "price": 220
+  },
+  "S95": {
+   "series": "Amaron EFB",
+   "price": 240
+  },
+  "L3": {
+   "series": "Amaron EFB",
+   "price": 260
+  },
+  "LN1": {
+   "series": "Amaron AGM",
+   "price": 240
+  },
+  "LN2": {
+   "series": "Amaron AGM",
+   "price": 260
+  },
+  "LN3": {
+   "series": "Amaron AGM",
+   "price": 280
+  },
+  "LN4": {
+   "series": "Amaron AGM",
+   "price": 300
+  },
+  "LN5": {
+   "series": "Amaron AGM",
+   "price": 320
   }
  }
 }

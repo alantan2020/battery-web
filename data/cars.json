@@ -16,10 +16,76 @@
   "model": "Corolla Altis",
   "yearFrom": 2002,
   "yearTo": 2019,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "60B24LS",
+    "type": "Standard"
+   },
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "42B20R",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN55L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Corolla ZRE152R Ascent / Conquest / Edge / Levin / Ultima / ZR (ZRE152R)",
+    "years": "05/2007-2013",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Corolla ZRE172R Sedan (ZRE172R)",
+    "years": "2013-2019",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Corolla ZRE182R Hatch (ZRE182R)",
+    "years": "10/2012-2019",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Corolla ZWE186R 1.8/60kW Hybrid (check polarity) (ZWE186R)",
+    "years": "2016-2018",
+    "guide": "FLO 42B20R",
+    "code": "42B20R",
+    "two": false
+   },
+   {
+    "version": "Corolla ZWE211R 1.8/53kW Hybrid (check polarity) (ZWE211R)",
+    "years": "06/2018-on",
+    "guide": "PRO DIN55L",
+    "code": "DIN55L",
+    "two": false
+   },
+   {
+    "version": "Corolla MZEA 2.0i (MZEA12R)",
+    "years": "06/2018-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "toyota-camry",
@@ -27,10 +93,86 @@
   "model": "Camry",
   "yearFrom": 2006,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "85D23R",
+    "type": "Standard"
+   },
+   {
+    "partNo": "LN2",
+    "type": "AGM"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Camry 2.4i Altise / Ateva / Grande / Sportivo / Touring (ACV36 - ACV40)",
+    "years": "09/2002-2011",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Camry 3.0i Altise / Ateva / Azura / Grande / Sportivo (MCV36R)",
+    "years": "09/2002-2011",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Camry 2.5i (ASV50)",
+    "years": "12/2011-2017",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Camry 2.5i (ASV70)",
+    "years": "09/2017-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Camry 3.5i V6 (GSV70)",
+    "years": "09/2017-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Camry Hybrid series 1 2.4i/105kW (AHV40)",
+    "years": "07/2009-2011",
+    "guide": "FLO 85D23R",
+    "code": "85D23R",
+    "two": false
+   },
+   {
+    "version": "Camry Hybrid series II 2.5i/105kW (AVV50)",
+    "years": "01/2012-2017",
+    "guide": "FLO 85D23R",
+    "code": "85D23R",
+    "two": false
+   },
+   {
+    "version": "Camry Hybrid series III 2.5i / 88kW (AXVH71)",
+    "years": "09/2017-on",
+    "guide": "JADE AGM L2",
+    "code": "LN2",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "toyota-prius",
@@ -38,10 +180,68 @@
   "model": "Prius",
   "yearFrom": 2012,
   "yearTo": 2022,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "42B20R",
+    "type": "Standard"
+   },
+   {
+    "partNo": "60B24R",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN45L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "hybrid",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Prius 2nd Gen 1.5i/50kW - no Smart-Key system (NHW20R)",
+    "years": "10/2003-2009",
+    "guide": "FLO 42B20R",
+    "code": "42B20R",
+    "two": false
+   },
+   {
+    "version": "Prius 2nd Gen 1.5i/50kW i-Tech - fitted with Smart-Key system (NHW20R)",
+    "years": "10/2003-2009",
+    "guide": "FLO 55B24R",
+    "code": "60B24R",
+    "two": false
+   },
+   {
+    "version": "Prius 3rd Gen 1.8i/60kW (ZVW30R)",
+    "years": "07/2009-2017",
+    "guide": "FLO 55B24R",
+    "code": "60B24R",
+    "two": false
+   },
+   {
+    "version": "Prius (ZBW50R)",
+    "years": "2016-on",
+    "guide": "PRO DIN45L",
+    "code": "DIN45L",
+    "two": false
+   },
+   {
+    "version": "Prius C 1.5i/45kW Compact (NHP10R)",
+    "years": "2011-2018",
+    "guide": "FLO 55B24R",
+    "code": "60B24R",
+    "two": false
+   },
+   {
+    "version": "Prius V 1.8i/60kW Wagon (ZVW40R)",
+    "years": "2012-2018",
+    "guide": "FLO 55B24R",
+    "code": "60B24R",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "toyota-estima",
@@ -114,10 +314,32 @@
   "model": "C-HR",
   "yearFrom": 2017,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "C-HR (Koba) (NGX10R)",
+    "years": "2016-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Koba (C-HR) (NGX10R)",
+    "years": "2016-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "toyota-rav4",
@@ -125,10 +347,76 @@
   "model": "RAV4",
   "yearFrom": 2013,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "95D31L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "80D26L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "LN1",
+    "type": "AGM"
+   },
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Rav4 Diesel 2.2DT (ALA49R)",
+    "years": "2012-2018",
+    "guide": "FLO 95D31L",
+    "code": "95D31L",
+    "two": false
+   },
+   {
+    "version": "Rav4 Petrol 2.4i Attitude / Cruiser / CV / Edge (ACA33 - ACA38)",
+    "years": "01/2006-2012",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Rav4 Petrol 3.5i CV6 / SX6 / ZR6 (GSA33)",
+    "years": "10/2007-2012",
+    "guide": "FLO 80D26L",
+    "code": "80D26L",
+    "two": false
+   },
+   {
+    "version": "Rav4 Petrol 2.5i Cruiser / 2.0i GX/ GXL (ASA44 - ZSA42)",
+    "years": "12/2012-2016",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Rav4 Hybrid (AXAH)",
+    "years": "2018-on",
+    "guide": "JADE AGM L1",
+    "code": "LN1",
+    "two": false
+   },
+   {
+    "version": "Rav4 Petrol 2.0i (MXAA)",
+    "years": "2019-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "honda-jazz",
@@ -136,10 +424,39 @@
   "model": "Jazz",
   "yearFrom": 2008,
   "yearTo": 2021,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "50B20L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Jazz GLi / VTi / VIBE (GD, GE)",
+    "years": "2003-2013",
+    "guide": "FLO 42B20L",
+    "code": "50B20L",
+    "two": false
+   },
+   {
+    "version": "Jazz Hybrid (GK)",
+    "years": "2014-on",
+    "guide": "FLO 42B20L",
+    "code": "50B20L",
+    "two": false
+   },
+   {
+    "version": "Jazz VTi-L (GK)",
+    "years": "2014-on",
+    "guide": "FLO 42B20L",
+    "code": "50B20L",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "honda-civic",
@@ -147,10 +464,90 @@
   "model": "Civic",
   "yearFrom": 2016,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "60B24LS",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "L3",
+    "type": "EFB"
+   },
+   {
+    "partNo": "50B20L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "LN2",
+    "type": "AGM"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Civic 1.8i / 2.0i (8th Gen)",
+    "years": "02/2006-2011",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Civic Hatch 5dr 1.8i engine R18Z4 (9th Gen)",
+    "years": "02/2012-2016",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Civic Sedan 4dr 1.8i engine R18Z1 / 2.0i engine R20A5 (9th Gen)",
+    "years": "02/2012-2016",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Civic Diesel DTi-S 1.6DT engine N16A1 (9th Gen)",
+    "years": "01/2013-2016",
+    "guide": "ONYX EFB L3",
+    "code": "L3",
+    "two": false
+   },
+   {
+    "version": "Civic 1.5T / 1.8i Hatch and Sedan / RS (10th Gen)",
+    "years": "05/2016-on",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Civic Hybrid (7th - 9th Gen)",
+    "years": "01/2004-2014",
+    "guide": "FLO 42B20L",
+    "code": "50B20L",
+    "two": false
+   },
+   {
+    "version": "Civic Type R 2.0i engine code K20Z4 (8th Gen)",
+    "years": "01/2007-2011",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Civic Type R 2.0T engine code K20C1 (10th Gen)",
+    "years": "07/2017-on",
+    "guide": "JADE AGM L2",
+    "code": "LN2",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "honda-accord",
@@ -158,10 +555,86 @@
   "model": "Accord",
   "yearFrom": 2013,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "60B24LS",
+    "type": "Standard"
+   },
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "60B24R",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Accord Euro 4cyl (Mk VII - Mk VIII)",
+    "years": "2003-2016",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Accord 2.4i Vti 4cyl (Mk VII)",
+    "years": "09/2003-02/2008",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Accord 3.5i V6 (can also use 55D23L) (8th Gen)",
+    "years": "2008-2013",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Accord 2.4i Vti / Vti-L (bracket fits both casing widths) (8th Gen)",
+    "years": "02/2008-05/2013",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Accord 2.4i Vti-L / Vti-S (9th Gen)",
+    "years": "2013-2019",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "Accord 3.5i V6 (9th Gen)",
+    "years": "2013-2019",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Accord 1.5 VTi-LX (10th Gen)",
+    "years": "2019-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Accord VTi-LX Hybrid (10th Gen)",
+    "years": "2019-on",
+    "guide": "FLO 55B24R",
+    "code": "60B24R",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "honda-hrv",
@@ -169,10 +642,25 @@
   "model": "HR-V",
   "yearFrom": 2015,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "60B24LS",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "HR-V 1.8i all models",
+    "years": "2015-on",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "honda-crv",
@@ -180,10 +668,50 @@
   "model": "CR-V",
   "yearFrom": 2012,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "L3",
+    "type": "EFB"
+   },
+   {
+    "partNo": "60B24LS",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "CR-V Diesel 2.2DT Dti-S / Dti-L (RM)",
+    "years": "06/2013-on",
+    "guide": "ONYX EFB L3",
+    "code": "L3",
+    "two": false
+   },
+   {
+    "version": "CR-V Diesel 1.6DT Dti-L (RM Series II)",
+    "years": "01/2015-on",
+    "guide": "ONYX EFB L3",
+    "code": "L3",
+    "two": false
+   },
+   {
+    "version": "CR-V Petrol 2.4i MkII / MkIII (RD / RE)",
+    "years": "12/2001-2012",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   },
+   {
+    "version": "CR-V Petrol 2.0i / 2.4i VTi , 2WD & AWD (RM / RM II)",
+    "years": "11/2012-2017",
+    "guide": "FLO 55B24LS",
+    "code": "60B24LS",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "honda-freed",
@@ -213,10 +741,58 @@
   "model": "X-Trail",
   "yearFrom": 2014,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "80D26L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "S95",
+    "type": "EFB"
+   },
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "Q85",
+    "type": "EFB"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "X-Trail Diesel (T31)",
+    "years": "2008-2013",
+    "guide": "FLO 80D26L",
+    "code": "80D26L",
+    "two": false
+   },
+   {
+    "version": "X-Trail Diesel 1.6DT Stop Start (T32)",
+    "years": "03/2014-on",
+    "guide": "ONYX EFB S95",
+    "code": "S95",
+    "two": false
+   },
+   {
+    "version": "X-Trail Petrol (T30 - T31)",
+    "years": "2001-2013",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "X-Trail Petrol Stop Start (T32)",
+    "years": "2014-on",
+    "guide": "ONYX EFB Q85",
+    "code": "Q85",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "mazda-3",
@@ -224,10 +800,72 @@
   "model": "Mazda 3",
   "yearFrom": 2014,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "80D26L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "S95",
+    "type": "EFB"
+   },
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "Q85",
+    "type": "EFB"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Mazda 3 Diesel 2.0DT / 2.2DT (BK - BL II)",
+    "years": "2007-2013",
+    "guide": "FLO 80D26L",
+    "code": "80D26L",
+    "two": false
+   },
+   {
+    "version": "Mazda 3 Diesel 2.2DT XD Astina Stop Start (BM)",
+    "years": "2014-on",
+    "guide": "ONYX EFB S95",
+    "code": "S95",
+    "two": false
+   },
+   {
+    "version": "Mazda 3 (BK - BL)",
+    "years": "2003-09/2011",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Mazda 3 2.3T MPS (BK - BL II)",
+    "years": "07/2006-2013",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Mazda 3 2.0i / 2.5i SkyActiv Stop Start (BL II - BM - BN)",
+    "years": "09/2011-on",
+    "guide": "ONYX EFB Q85",
+    "code": "Q85",
+    "two": false
+   },
+   {
+    "version": "Mazda 3 2.0 SkyActiv (BP)",
+    "years": "2019-on",
+    "guide": "ONYX EFB Q85",
+    "code": "Q85",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "mazda-cx5",
@@ -235,10 +873,54 @@
   "model": "CX-5",
   "yearFrom": 2017,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "125D31L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "S95",
+    "type": "EFB"
+   },
+   {
+    "partNo": "Q85",
+    "type": "EFB"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "CX-5 Diesel 2.2DTT Stop Start (KE)",
+    "years": "2012-2017",
+    "guide": "PRO 125D31L",
+    "code": "125D31L",
+    "two": false
+   },
+   {
+    "version": "CX-5 Diesel (KF)",
+    "years": "2017-on",
+    "guide": "ONYX EFB S95",
+    "code": "S95",
+    "two": false
+   },
+   {
+    "version": "CX-5 Petrol 2.0i / 2.5i Stop Start (KE)",
+    "years": "2012-on",
+    "guide": "ONYX EFB Q85",
+    "code": "Q85",
+    "two": false
+   },
+   {
+    "version": "CX-5 Petrol 2.5 (KF)",
+    "years": "2017-on",
+    "guide": "ONYX EFB Q85",
+    "code": "Q85",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "hyundai-avante",
@@ -246,10 +928,36 @@
   "model": "Avante",
   "yearFrom": 2011,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "50B20L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Elantra HD Series (HD)",
+    "years": "08/2006-2011",
+    "guide": "FLO 42B20L",
+    "code": "50B20L",
+    "two": false
+   },
+   {
+    "version": "Elantra MD Series (MD - MD3)",
+    "years": "06/2011-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "hyundai-tucson",
@@ -257,10 +965,65 @@
   "model": "Tucson",
   "yearFrom": 2016,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "80D26L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "95D31L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN80L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Tucson 2.0i 4cyl",
+    "years": "10/2005-01/2010",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Tucson 2.7i V6",
+    "years": "08/2004-01/2010",
+    "guide": "FLO 80D26L",
+    "code": "80D26L",
+    "two": false
+   },
+   {
+    "version": "Tucson Diesel 2.0DT (TLe)",
+    "years": "05/2015-on",
+    "guide": "FLO 95D31L",
+    "code": "95D31L",
+    "two": false
+   },
+   {
+    "version": "Tucson Petrol 2.0i (TL)",
+    "years": "05/2015-on",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "Tucson Petrol 1.6T (TLe)",
+    "years": "05/2015-on",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "mitsubishi-attrage",
@@ -279,10 +1042,36 @@
   "model": "ASX",
   "yearFrom": 2013,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "95D31L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "ASX Diesel 1.8DT / 2.2DT (XA - XB)",
+    "years": "07/2010-2016",
+    "guide": "FLO 95D31L",
+    "code": "95D31L",
+    "two": false
+   },
+   {
+    "version": "ASX Petrol 2.0i (XA - XB - XC)",
+    "years": "07/2010-on",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "subaru-xv",
@@ -290,10 +1079,32 @@
   "model": "XV",
   "yearFrom": 2017,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "Q85",
+    "type": "EFB"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "XV 2.0i (G4-X)",
+    "years": "12/2011-2017",
+    "guide": "ONYX EFB Q85",
+    "code": "Q85",
+    "two": false
+   },
+   {
+    "version": "XV 2.0i (G5-X)",
+    "years": "2017-on",
+    "guide": "ONYX EFB Q85",
+    "code": "Q85",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "kia-cerato",
@@ -301,10 +1112,43 @@
   "model": "Cerato",
   "yearFrom": 2013,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "85D23L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "general",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Cerato / Cerato Koup 2.0i (TD)",
+    "years": "01/2009-2013",
+    "guide": "FLO 85D23L",
+    "code": "85D23L",
+    "two": false
+   },
+   {
+    "version": "Cerato 1.6T / 1.8i / 2.0i (YD)",
+    "years": "04/2013-2018",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Cerato 1.6T / 2.0I (BD)",
+    "years": "04/2018-on",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "volkswagen-golf",
@@ -312,10 +1156,135 @@
   "model": "Golf",
   "yearFrom": 2013,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "DIN80L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "DIN66L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "L3",
+    "type": "EFB"
+   },
+   {
+    "partNo": "LN3",
+    "type": "AGM"
+   }
+  ],
   "faq": [],
   "kind": "european",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "Golf Diesel 1.9DT / 2.0DT (5th Gen)",
+    "years": "07/2004-2009",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "Golf Diesel GTD 2.0DT (6th Gen)",
+    "years": "02/2009-2013",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Golf Diesel 77TDI / 103TDI (6th Gen)",
+    "years": "02/2009-2013",
+    "guide": "ONYX EFB L3",
+    "code": "L3",
+    "two": false
+   },
+   {
+    "version": "Golf Diesel 1.6DT BlueMOTION Stop Start (6th Gen)",
+    "years": "2011-2012",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "Golf Diesel 110TDI 2.0DT Stop Start (7th Gen)",
+    "years": "11/2012-on",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "Golf Diesel Alltrack 135TDI Stop Start (7.5)",
+    "years": "02/2017-on",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "Golf Petrol 1.6i / 1.4TSC (5th Gen)",
+    "years": "07/2004-2009",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Golf Petrol 2.0i Pacific / Sportline / 2.0T GTI (5th Gen)",
+    "years": "07/2004-2009",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "Golf Petrol 3.2i R32 4MOTION (5th Gen)",
+    "years": "2004-2010",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "Golf Petrol 1.2T 77TSI / 1.4T 90TSI / 1.4TSC 118TSI (6th Gen)",
+    "years": "02/2009-2012",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Golf Petrol 1.4TSC Convertible 118TSI (6th Gen)",
+    "years": "08/2011-2014",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "Golf Petrol 2.0T GTI 155kW / Golf R 188kW 4MOTION (6th Gen)",
+    "years": "08/2009-2012",
+    "guide": "PRO DIN66L",
+    "code": "DIN66L",
+    "two": false
+   },
+   {
+    "version": "Golf Petrol 1.4T 90TSI / 103TSI Stop Start (7)",
+    "years": "11/2012-on",
+    "guide": "ONYX EFB L3",
+    "code": "L3",
+    "two": false
+   },
+   {
+    "version": "Golf Petrol 2.0T GTI / Golf R 4MOTION Stop Start (7)",
+    "years": "11/2012-on",
+    "guide": "ONYX EFB L3",
+    "code": "L3",
+    "two": false
+   },
+   {
+    "version": "Golf Alltrack 1.8T 132TSI Stop Start (7)",
+    "years": "06/2015-on",
+    "guide": "ONYX EFB L3",
+    "code": "L3",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "bmw-3-series",
@@ -323,10 +1292,166 @@
   "model": "3 Series",
   "yearFrom": 2012,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "LN4",
+    "type": "AGM"
+   },
+   {
+    "partNo": "LN5",
+    "type": "AGM"
+   },
+   {
+    "partNo": "LN3",
+    "type": "AGM"
+   }
+  ],
   "faq": [],
   "kind": "european",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "316i Sedan 1.6T Stop Start (F30)",
+    "years": "04/2013-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "318d Diesel Sedan & Wagon 2.0DT (E90 - E91)",
+    "years": "08/2007-2012",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "320d Diesel Sedan & Wagon (E90 - E91)",
+    "years": "02/2006-2012",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "320d Diesel Coupe & Convertible (E92 - E93)",
+    "years": "09/2009-2013",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "320d Diesel Sedan / Hatch 2.0DT (F30 - F34)",
+    "years": "11/2011-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "320i Sedan & Wagon 2.0i (E90 - E91)",
+    "years": "03/2005-2012",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "320i Sedan / Wagon / Hatch 2.0T Stop Start (F30 - F34)",
+    "years": "2012-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "323i Sedan / Touring / Coupe (E90 - E91 - E92)",
+    "years": "02/2006-2012",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "325i fitted with AGM battery (E90 - 91 - 92 - 93)",
+    "years": "03/2005-2013",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "325i Sedan / Wagon / Convertible 2.5i (E90 - E91 - E93)",
+    "years": "03/2005-2011",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "325i Coupe 2.5i (E92)",
+    "years": "02/2006-2013",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "328i Sedan / Wagon / Hatch 2.8i Stop Start (F30 - F31 - F34)",
+    "years": "08/2013-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "330d Diesel 3.0DT (E90 - E92 - E93)",
+    "years": "2006-2013",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "330i Sedan & Wagon 3.0i (F30 - F31 - F34)",
+    "years": "08/2013-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "335i Sedan & Wagon 3.0TT (E90 - E91)",
+    "years": "09/2006-2010",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "335i Sedan & Wagon 3.0T (E90 - E91)",
+    "years": "03/2010-2012",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "335i Coupe & Convertible 3.0TT (E92 - E93)",
+    "years": "09/2006-2010",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "335i Coupe & Convertible 3.0T (E92 - E93)",
+    "years": "03/2010-2013",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "335i Sedan 3.0T (F30)",
+    "years": "08/2013-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "340i Sedan 3.0T (F30)",
+    "years": "08/2015-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "bmw-5-series",
@@ -334,10 +1459,99 @@
   "model": "5 Series",
   "yearFrom": 2011,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "LN1",
+    "type": "AGM"
+   },
+   {
+    "partNo": "LN5",
+    "type": "AGM"
+   }
+  ],
   "faq": [],
   "kind": "european",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "5 Series Auxiliary battery (BMW # 61 219 364 597)",
+    "years": "2017-on",
+    "guide": "JADE AGM L1",
+    "code": "LN1",
+    "two": false
+   },
+   {
+    "version": "5 Series Auxiliary battery (BMW OE # 61 -21-7-623-132)",
+    "years": "2017-on",
+    "guide": "JADE AGM L1",
+    "code": "LN1",
+    "two": false
+   },
+   {
+    "version": "520i / 523i / 525i / 530i Sedan (E60)",
+    "years": "2003-2009",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "525i Touring, 530i / 545i Wagon (E61)",
+    "years": "2003-2010",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "540i / 545i / 550i (E60)",
+    "years": "2003-2010",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "520d / 530d / 535d Diesel (E60)",
+    "years": "2003-2010",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "520i / 528i / 535i / 550i (F07 - F10 - F11)",
+    "years": "2010-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "520i / 530e / 530i / 540i / M550i (F30)",
+    "years": "11/2016-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "520d / 530d / 535d Diesel Stop Start (F07 - F10 - F11)",
+    "years": "2010-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "520d / 530d (F30)",
+    "years": "11/2016-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "5 Series ActiveHybrid 3.0T/40kW (F10)",
+    "years": "2013-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "mercedes-c-class",
@@ -345,10 +1559,258 @@
   "model": "C-Class",
   "yearFrom": 2014,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "DIN80L",
+    "type": "Standard"
+   },
+   {
+    "partNo": "LN4",
+    "type": "AGM"
+   },
+   {
+    "partNo": "LN3",
+    "type": "AGM"
+   },
+   {
+    "partNo": "LN5",
+    "type": "AGM"
+   },
+   {
+    "partNo": "DIN100L",
+    "type": "Standard"
+   }
+  ],
   "faq": [],
   "kind": "european",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "C Class Coupe C180 / C180 K (CL203)",
+    "years": "2001-2008",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C200 K (CL203)",
+    "years": "11/2001-2008",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C230 / C230 K (CL203)",
+    "years": "2002-2008",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C180 Stop Start (C204)",
+    "years": "05/2011-2015",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C250 Petrol (C204)",
+    "years": "05/2011-2015",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C250CDI (C204)",
+    "years": "05/2011-2015",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C350 BlueEfficiency (C204)",
+    "years": "05/2011-2015",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C63 AMG (C204)",
+    "years": "10/2011-2015",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C43 / C63 AMG (C205)",
+    "years": "01/2016-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Coupe C200 / C250 / C300 (C205)",
+    "years": "01/2016-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Diesel C200 BlueTEC / C250 BlueTEC (W205 / S205)",
+    "years": "08/2014-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Diesel C200CDI 2.1DT (W204)",
+    "years": "07/2010-2015",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "C Class Diesel C220CDI 2.2DT / 2.1DT (W204)",
+    "years": "07/2007-2011",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Diesel C250CDI 2.1DTT sedan / wagon (W204)",
+    "years": "05/2011-2015",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Diesel C300 Hybrid 2.1DTT/20kW (W205)",
+    "years": "2015-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Diesel C320CDi / C350CDi (W204)",
+    "years": "07/2007-2014",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C200K 1.8SC (W204)",
+    "years": "07/2007-2009",
+    "guide": "PRO DIN80L",
+    "code": "DIN80L",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C200 CGI (W204)",
+    "years": "01/2010-2011",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C250 CGI sedan / wagon (W204)",
+    "years": "01/2010-2011",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C200 1.8T Stop Start (W204)",
+    "years": "05/2011-2014",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C250 1.8T Stop Start (W204)",
+    "years": "05/2011-2014",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C200 / C250 sedan / wagon Stop Start (W205 / S205)",
+    "years": "08/2014-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C280 3.0i (check for AGM battery) (W204)",
+    "years": "2007-2010",
+    "guide": "PRO DIN100L",
+    "code": "DIN100L",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C300 3.0i 170kW (W204)",
+    "years": "01/2010-2014",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C300 3.5i 185kW BlueEfficiency (W204)",
+    "years": "01/2010-2014",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C300 2.0T (W205)",
+    "years": "2015-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C350CGi (W204)",
+    "years": "07/2007-2014",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C350e 2.0T/60kW (W205 / S205)",
+    "years": "07/2016-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C43 AMG 3.0TT sedan / wagon (W205 / S205)",
+    "years": "2016-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C43 AMG 3.0TT coupe / convertible (205 series)",
+    "years": "2016-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C63 AMG (W204)",
+    "years": "2008-2015",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "C Class Petrol C63 AMG 4.0TT sedan / wagon / coupe / convertible (205 series)",
+    "years": "01/2016-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "mercedes-e-class",
@@ -356,10 +1818,117 @@
   "model": "E-Class",
   "yearFrom": 2013,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "LN5",
+    "type": "AGM"
+   },
+   {
+    "partNo": "LN3",
+    "type": "AGM"
+   },
+   {
+    "partNo": "LN4",
+    "type": "AGM"
+   }
+  ],
   "faq": [],
   "kind": "european",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "E Class Diesel E270CDi / E280CDi (W211 / S211)",
+    "years": "09/2002-08/2009",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "E Class Diesel E220CDi / E250CDi (W212 / S212)",
+    "years": "07/2009-on",
+    "guide": "JADE AGM L3",
+    "code": "LN3",
+    "two": false
+   },
+   {
+    "version": "E Class Diesel E350CDi (W212 / S212)",
+    "years": "07/2009-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "E Class Diesel E250CDi coupe & convertible (C207 / A207)",
+    "years": "07/2009-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol E200K / E240 / E280 / E320 (W211 / S211)",
+    "years": "07/2002-2009",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol E350 / E500 (W211)",
+    "years": "07/2002-2009",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol Wagon (S211)",
+    "years": "07/2002-07/2009",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol E55K AMG / E63 AMG sedan / wagon (W211 / S211)",
+    "years": "07/2002-07/2009",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol E200 / E250 & CGi / E350 & BlueEfficiency (W212)",
+    "years": "07/2009-2016",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol E200 / E250 / E350 & BlueEfficiency wagon (S212)",
+    "years": "07/2009-2016",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol E400 / E500 & BlueEfficiency / E63 AMG (W212)",
+    "years": "07/2009-2016",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol E200 / E250 / E350 coupe & convertible (C207 / A207)",
+    "years": "07/2009-2016",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "E Class Petrol E400 / E500 coupe & convertible (C207 / A207)",
+    "years": "07/2009-2016",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "audi-a4",
@@ -367,10 +1936,162 @@
   "model": "A4",
   "yearFrom": 2013,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "LN5",
+    "type": "AGM"
+   },
+   {
+    "partNo": "LN4",
+    "type": "AGM"
+   }
+  ],
   "faq": [],
   "kind": "european",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "A4 Diesel 2.0DT / 2.7DT (B7)",
+    "years": "02/2005-2008",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Diesel 3.0DT quattro (B7)",
+    "years": "02/2005-2008",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Diesel 2.0DT / 2.7DT / 3.0DT (B8)",
+    "years": "04/2008-2012",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Diesel 2.0DT / 3.0DT Stop Start (B8)",
+    "years": "06/2012-2016",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Diesel 2.0DT Stop Start (B9)",
+    "years": "10/2015-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "A4 Petrol (B6 - B7)",
+    "years": "06/2001-2008",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "A4 Petrol (battery under spare in boot) (B8)",
+    "years": "04/2008-2012",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 quattro 1.8T / 2.0T / 3.2i (B7 - B8)",
+    "years": "02/2005-2012",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 quattro 2.0T / 3.0SC Stop Start (B8)",
+    "years": "06/2012-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Allroad quattro 2.0DT (130kW & 140kW) Stop Start (B8)",
+    "years": "06/2012-2016",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "A4 Allroad quattro 2.0DT (140kW) Stop Start (B9)",
+    "years": "05/2016-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "A4 Avant Diesel 2.0DT / 2.7DT non-Stop Start (B7 - B8)",
+    "years": "01/2007-2012",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Avant Diesel 2.0DT / 3.0DT Stop Start (B8)",
+    "years": "06/2012-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Avant RS4 / S4 (B5 - B7)",
+    "years": "1999 - 2009",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "A4 Avant Petrol 1.8T / 2.0i / 2.0T (B7 - B8)",
+    "years": "02/2005-2012",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Avant Petrol 1.8T / 2.0T Stop Start (B8)",
+    "years": "06/2012-on",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "A4 Avant quattro 2.0T Stop Start (B8)",
+    "years": "06/2012-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Cabriolet Petrol 1.8i / 2.0i / 2.4i (B6 - B7)",
+    "years": "2001-2008",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   },
+   {
+    "version": "A4 Cabriolet Petrol 3.0i V6 (B6 - B7)",
+    "years": "2001-2008",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A4 Cabriolet Diesel 2.5TDi (B6 - B7)",
+    "years": "2002-2008",
+    "guide": "JADE AGM L4",
+    "code": "LN4",
+    "two": false
+   }
+  ]
  },
  {
   "slug": "audi-a6",
@@ -378,9 +2099,59 @@
   "model": "A6",
   "yearFrom": 2012,
   "yearTo": 2024,
-  "batteries": [],
+  "batteries": [
+   {
+    "partNo": "LN5",
+    "type": "AGM"
+   }
+  ],
   "faq": [],
   "kind": "european",
-  "verified": false
+  "verified": true,
+  "evidence": "Nam Wah Battery Co Pte Ltd Vehicle Application Guide (Amaron's Singapore distributor).",
+  "fitment": [
+   {
+    "version": "A6 Diesel 2.7DT / 3.0DT (4F (C6))",
+    "years": "09/2004-2011",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A6 Diesel 2.0DT / 3.0DT Stop Start (4G (C7))",
+    "years": "07/2011-2018",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A6 Diesel 3.0DTT 235kW Stop Start (4G (C7))",
+    "years": "07/2013-2018",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A6 Petrol 2.0T / 2.4i / 2.8i / 3.0i / 3.2i (4F (C6))",
+    "years": "09/2004-2011",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A6 Petrol quattro 2.8i / 3.0TSC / 3.0i / 3.2i / 4.2i (4F (C6))",
+    "years": "09/2004-2011",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   },
+   {
+    "version": "A6 Petrol 1.8T / 2.0T / 2.8i / 3.0SC Stop Start (C7)",
+    "years": "07/2011-on",
+    "guide": "JADE AGM L5",
+    "code": "LN5",
+    "two": false
+   }
+  ]
  }
 ]

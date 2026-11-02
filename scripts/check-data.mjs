@@ -9,6 +9,7 @@ for (const c of cars) {
     if (!c.evidence || c.evidence.length < 20) bad.push(`${c.slug}: 已核实但没写依据 evidence`)
     for (const b of c.batteries) if (!prices[b.partNo]) bad.push(`${c.slug}: ${b.partNo} 不在价格表里`)
     if (!c.batteries.length) bad.push(`${c.slug}: 已核实却没有电瓶型号`)
+    for (const f of c.fitment || []) { if (f.code && !prices[f.code]) bad.push(`${c.slug}: 对照行 ${f.code} 不在价格表里`); if (!f.guide || !f.years || !f.version) bad.push(`${c.slug}: 对照行缺字段`) }
   } else if (c.batteries.length || (c.faq || []).length || c.batteryNote) {
     bad.push(`${c.slug}: 未核实的车型不许带电瓶型号/FAQ/说明`)
   }
