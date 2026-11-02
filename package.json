@@ -5,8 +5,9 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "generate": "node scripts/check-data.mjs && nuxt generate",
+    "preview": "nuxt preview",
+    "check": "node scripts/check-data.mjs"
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.13.1",

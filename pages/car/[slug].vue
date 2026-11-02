@@ -9,7 +9,22 @@
     </div>
 
     <div class="max-w-3xl mx-auto px-4 py-8 space-y-10">
-      <section>
+      <section v-if="!car.verified">
+        <h2 class="font-serif text-xl text-gray-900 mb-3">The battery for your {{ car.model }}</h2>
+        <p class="text-gray-700 leading-relaxed">The {{ car.make }} {{ car.model }} was sold in Singapore from {{ car.yearFrom }} to {{ car.yearTo }}, and the battery size can change with the year and the engine. We have not confirmed it for every version, so we do not print a size here that might be wrong.</p>
+        <p v-if="car.kind === 'european'" class="text-gray-700 leading-relaxed mt-3">Cars like this are usually fitted with an AGM or EFB battery, and a new battery often has to be registered with the car's computer. A plain replacement battery is not a safe swap. A person checks every {{ car.make }} before we quote.</p>
+        <p v-if="car.kind === 'hybrid'" class="text-gray-700 leading-relaxed mt-3">A hybrid has a small 12V battery as well as the big hybrid battery. Only the 12V one is replaced here, and it is usually a special type, so we check it before quoting.</p>
+        <h3 class="font-serif text-lg text-gray-900 mt-6 mb-2">The quickest way to the right battery</h3>
+        <ol class="list-decimal pl-5 space-y-1 text-gray-700">
+          <li>Open the bonnet and find the battery. If it is under a seat or in the boot, send us your car model and year instead.</li>
+          <li>Photograph the label on top. It has a code such as 55B24L or DIN66, and sometimes the words EFB or AGM.</li>
+          <li>Send the photo on WhatsApp. We confirm the size and the type and tell you the price.</li>
+        </ol>
+        <p class="text-sm text-gray-600 mt-3">Already know the size? <NuxtLink to="/price" class="text-blue-700 underline">Look it up on the Amaron price list</NuxtLink>.</p>
+        <p class="mt-4"><a :href="askLink" target="_blank" rel="noopener" class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-3 font-medium">Send the label on WhatsApp</a></p>
+      </section>
+
+      <section v-if="car.verified">
         <h2 class="font-serif text-xl text-gray-900 mb-3">What fits</h2>
         <div v-for="(b, i) in car.batteries" :key="b.partNo" class="border border-gray-300 bg-white p-4 mb-3">
           <div class="flex flex-wrap items-baseline justify-between gap-2">
@@ -20,12 +35,12 @@
           <p class="text-sm text-gray-600 mt-1">
             <template v-if="b.equivalent">Replaces {{ b.equivalent }}. </template>
             <template v-if="b.cca">{{ b.cca }} CCA, {{ b.capacityAh }}Ah. </template>
-            <template v-if="i === 0 && car.batteries.length > 1">The usual choice. </template>
+            
           </p>
           <p v-if="priceOf(b)" class="text-xs text-gray-500 mt-2">Price at our partner fitting point, GST included, as of {{ fmtAsOf }}. Fitting is included. Home visit is possible, we quote it on WhatsApp.</p>
           <p v-if="b.type !== 'Standard'" class="text-sm text-gray-800 mt-2 border-l-4 border-blue-500 pl-3">This car needs an {{ b.type }} battery because of its stop-start system. A standard battery is not a safe swap.</p>
         </div>
-        <p class="text-sm text-gray-600">Same model, different year or trim can use a different battery. The label on your old battery has the final say.</p>
+        <p class="text-sm text-gray-600">{{ car.evidence }} Another year or trim can use a different battery, so the label on your old battery has the final say.</p>
         <p class="mt-4"><a :href="askLink" target="_blank" rel="noopener" class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-3 font-medium">Ask on WhatsApp</a></p>
       </section>
 
@@ -39,7 +54,7 @@
         <p class="text-gray-700 leading-relaxed">{{ car.batteryNote }}</p>
       </section>
 
-      <section>
+      <section v-if="faqs.length">
         <h2 class="font-serif text-xl text-gray-900 mb-3">Questions we get</h2>
         <details v-for="f in faqs" :key="f.q" class="border-b border-gray-200 py-3">
           <summary class="cursor-pointer text-gray-900 font-medium">{{ f.q }}</summary>
@@ -72,48 +87,23 @@ const priceOf = (b) => prices.items[b.partNo]?.price ?? null
 const seriesOf = (b) => prices.items[b.partNo]?.series ?? `Amaron ${b.series}`
 const fmtAsOf = new Date(prices.asOf + '-01').toLocaleDateString('en-SG', { month: 'long', year: 'numeric' })
 
-// A4: use car.faq from JSON if available, otherwise fallback to template
-const templateFaqs = car ? [
-  {
-    q: `What battery size does the ${car.make} ${car.model} use?`,
-    a: `The ${car.make} ${car.model} (${car.yearFrom}–${car.yearTo}) uses ${car.batteries.map(b => `Amaron ${b.partNo} (replaces ${b.equivalent})`).join(' or ')}. ${car.batteries[0].type === 'AGM' ? 'This model requires an AGM battery due to its Start-Stop system — a standard battery will not be compatible.' : car.batteries[0].type === 'EFB' ? 'This model requires an EFB or AGM battery due to its Start-Stop system.' : 'A standard Amaron HILIFE battery is the correct fit for this model.'}`
-  },
-  {
-    q: `How often should I replace the battery on a ${car.make} ${car.model} in Singapore?`,
-    a: `In Singapore's tropical climate, expect to replace the battery every 2 to 3 years. Heat is the primary cause of early battery failure — it accelerates the breakdown of internal plate material. A battery over 3 years old should be load-tested even if it seems fine, as capacity drops significantly before it fails completely.`
-  },
-  {
-    q: `How long does a ${car.make} ${car.model} battery replacement take?`,
-    a: `A straightforward replacement takes 20–30 minutes at a workshop. ${car.batteries[0].type !== 'Standard' ? `Because the ${car.make} ${car.model} has a Battery Management System (BMS), the mechanic will need to reset or register the new battery after fitting — this is a normal step that takes a few extra minutes and requires a diagnostic tool.` : `The battery terminals and hold-down bracket will be checked and cleaned before the new battery is fitted.`}`
-  },
-  {
-    q: `What are the signs that my ${car.make} ${car.model} battery is failing?`,
-    a: `The most common signs are: slow engine cranking (especially on hot mornings), dimming headlights at idle, a battery warning light on the dashboard, or the car needing a jump-start. In Singapore's heat, batteries can fail suddenly without much warning, particularly after the 2.5-year mark.`
-  },
-  {
-    q: `Can I replace the ${car.make} ${car.model} battery myself?`,
-    a: `${car.batteries[0].type !== 'Standard' ? `We strongly recommend a workshop for the ${car.make} ${car.model}. The Battery Management System needs to be reset or programmed after a battery change. Skipping this step can cause the alternator to overcharge the new battery, shortening its life significantly.` : `It is possible to do it yourself, but we recommend a workshop to ensure the battery is correctly secured, terminals are properly connected, and any electronic reset is handled if needed.`}`
-  },
-  {
-    q: `Is Amaron a good battery brand for Singapore?`,
-    a: `Yes. Amaron is one of the most widely used battery brands in Singapore and Southeast Asia. Manufactured by Amara Raja Batteries in India, Amaron batteries are specifically engineered for tropical climates with high heat tolerance. They are maintenance-free, carry a manufacturer warranty, and are widely available at workshops across Singapore.`
-  },
-] : []
-
-const faqs = car.faq?.length ? car.faq.map(f => ({ q: f.q, a: f.a })) : templateFaqs
+const faqs = (car.faq || []).map(f => ({ q: f.q, a: f.a }))
 
 const WA_NUMBER = '6581525875'
 const waLink = (text, pos) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`${text}\n\n(ref: sgcarpass /car/${car.slug}/ ${pos})`)}`
 const askLink = waLink(`Hi, I'd like to check the battery price for my ${car.make} ${car.model} (${car.yearFrom}–${car.yearTo}).`, 'owner')
-const feedbackLink = waLink(`[Battery Spec Feedback] ${car.make} ${car.model} (${car.yearFrom}–${car.yearTo})\nListed: ${car.batteries.map(b => b.partNo).join(', ')}\nActual battery on this car: \n(Please attach photo of battery label)`, 'feedback')
+const feedbackLink = waLink(`[Battery Spec Feedback] ${car.make} ${car.model} (${car.yearFrom}–${car.yearTo})\nListed: ${car.batteries.map(b => b.partNo).join(', ') || 'none'}\nActual battery on this car: \n(Please attach photo of battery label)`, 'feedback')
 
 const first = car.batteries[0]
-const firstPrice = priceOf(first)
-useSeoMeta({
+useSeoMeta(car.verified ? {
   title: `${car.make} ${car.model} Battery in Singapore: Size ${first.partNo} | SGCarPass Battery`,
-  description: `Which battery fits the ${car.make} ${car.model} (${car.yearFrom}-${car.yearTo})? Size ${first.partNo}${first.equivalent ? ', replaces ' + first.equivalent : ''}, what to check before buying, and how to get a price on WhatsApp.`,
+  description: `A real ${car.make} ${car.model} job: size ${first.partNo}, what to check before buying, and how to get a price on WhatsApp.`,
   ogTitle: `${car.make} ${car.model} battery in Singapore`,
-  ogDescription: `Battery size, type and what to check for the ${car.make} ${car.model}.`,
+  ogDescription: `Battery size and what to check for the ${car.make} ${car.model}.`,
+} : {
+  title: `${car.make} ${car.model} Battery in Singapore | SGCarPass Battery`,
+  description: `How to find the right battery for a ${car.make} ${car.model} in Singapore: read the label, send a photo on WhatsApp, get the size and price confirmed.`,
+  robots: 'noindex, follow',
 })
 useHead({
   link: [{ rel: 'canonical', href: `https://battery.sgcarpass.com/car/${car.slug}` }],
@@ -124,7 +114,6 @@ useHead({
         { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://battery.sgcarpass.com' },
         { '@type': 'ListItem', position: 2, name: `${car.make} ${car.model} battery`, item: `https://battery.sgcarpass.com/car/${car.slug}` },
       ] },
-      { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) },
     ]),
   }],
 })

@@ -1,3 +1,5 @@
+import cars from './data/cars.json'
+const unverifiedCars = cars.filter((c: any) => !c.verified).map((c: any) => `/car/${c.slug}`)
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
@@ -11,6 +13,7 @@ export default defineNuxtConfig({
   },
 
   sitemap: {
+    exclude: [...unverifiedCars, '/eprice'],
     strictNuxtContentPaths: false,
   },
 

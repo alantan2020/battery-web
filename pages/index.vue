@@ -2,15 +2,15 @@
   <div class="max-w-3xl mx-auto px-4 py-8 space-y-10">
     <section>
       <h1 class="font-serif text-3xl md:text-4xl text-gray-900 leading-tight">Which battery does your car take?</h1>
-      <p class="text-gray-700 mt-3 leading-relaxed">Pick your car below to see the battery size that usually fits, whether it needs an EFB or AGM type, and the price at our partner fitting point. Not on the list, or not sure? Send a photo of your old battery's label on WhatsApp and we will tell you.</p>
+      <p class="text-gray-700 mt-3 leading-relaxed">The battery size can change with the year and the engine, so the surest way is the label on your old battery. Send a photo of it on WhatsApp and we confirm the size and the type, then tell you the price. Below are the cars people ask us about, and the Amaron price list is under Amaron prices.</p>
       <p class="mt-4">
         <a :href="waHref" target="_blank" rel="noopener" class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-3 font-medium">Ask on WhatsApp</a>
       </p>
     </section>
 
     <section>
-      <label for="q" class="block text-sm text-gray-600 mb-1">Search by make, model or battery size</label>
-      <input id="q" v-model="search" type="search" placeholder="e.g. Vios, Honda, 55B24" class="w-full border border-gray-300 bg-white px-3 py-2 focus:outline-none focus:border-blue-600" />
+      <label for="q" class="block text-sm text-gray-600 mb-1">Search by make or model</label>
+      <input id="q" v-model="search" type="search" placeholder="e.g. Vios, Honda" class="w-full border border-gray-300 bg-white px-3 py-2 focus:outline-none focus:border-blue-600" />
     </section>
 
     <section>
@@ -19,7 +19,6 @@
         <ul>
           <li v-for="c in carsByMake[make]" :key="c.slug" class="py-1.5 flex flex-wrap justify-between gap-2">
             <NuxtLink :to="`/car/${c.slug}`" class="text-blue-700 hover:underline">{{ c.model }} <span class="text-gray-500 text-sm">{{ c.yearFrom }}-{{ c.yearTo }}</span></NuxtLink>
-            <span class="text-sm text-gray-600">{{ c.batteries.map(b => b.partNo).join(' / ') }}</span>
           </li>
         </ul>
       </div>
@@ -61,7 +60,7 @@ const filtered = computed(() => {
   return cars.filter(c =>
     c.make.toLowerCase().includes(q) ||
     c.model.toLowerCase().includes(q) ||
-    c.batteries.some(b => b.partNo.toLowerCase().includes(q))
+    false
   )
 })
 const carsByMake = computed(() => {
@@ -72,8 +71,8 @@ const carsByMake = computed(() => {
 const visibleMakes = computed(() => Object.keys(carsByMake.value).sort())
 
 useSeoMeta({
-  title: 'Car Battery Singapore: Which Battery Fits Your Car | SGCarPass Battery',
-  description: 'Find the battery size, EFB or AGM type and the price for your car in Singapore. Toyota, Honda, Nissan, BMW, Mercedes and more. Replacement arranged on WhatsApp.',
+  title: 'Car Battery Replacement Singapore | SGCarPass Battery',
+  description: 'Car battery replacement in Singapore. Send a photo of your battery label on WhatsApp and we confirm the right size and type, then quote. Amaron price list included.',
 })
 useHead({ link: [{ rel: 'canonical', href: 'https://battery.sgcarpass.com/' }] })
 </script>
