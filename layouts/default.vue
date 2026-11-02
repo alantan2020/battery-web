@@ -1,22 +1,13 @@
 <template>
-  <div class="min-h-screen bg-gray-50 flex flex-col">
-    <header class="bg-white shadow-sm sticky top-0 z-10">
-      <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between">
-        <NuxtLink to="/" class="flex items-center gap-2">
-          <span class="text-xl font-bold text-blue-600">SGCarPass</span>
-          <span class="text-sm text-gray-500">汽车供应链管家</span>
-        </NuxtLink>
-        <div class="flex items-center gap-4">
-          <NuxtLink to="/price" class="text-sm text-gray-600 font-medium hover:text-blue-600">价格表</NuxtLink>
-          <NuxtLink to="/eprice" class="text-sm text-gray-600 font-medium hover:text-blue-600">Exide</NuxtLink>
-          <a
-            :href="waHref"
-            target="_blank"
-            class="text-sm text-green-600 font-medium"
-          >
-            WhatsApp Us
-          </a>
-        </div>
+  <div class="min-h-screen bg-gray-50 text-gray-800 font-sans flex flex-col">
+    <header class="border-b border-gray-300 bg-gray-50">
+      <div class="max-w-3xl mx-auto px-4 py-4 flex items-baseline justify-between gap-4">
+        <NuxtLink to="/" class="font-serif text-xl text-gray-900">SGCarPass <span class="text-blue-700">Battery</span></NuxtLink>
+        <nav class="flex items-baseline gap-5 text-sm">
+          <NuxtLink to="/" class="text-gray-700 hover:underline">Find your car</NuxtLink>
+          <NuxtLink to="/price" class="text-gray-700 hover:underline">Amaron prices</NuxtLink>
+          <a :href="waHref" target="_blank" rel="noopener" class="text-green-700 font-medium hover:underline">WhatsApp</a>
+        </nav>
       </div>
     </header>
 
@@ -24,9 +15,9 @@
       <slot />
     </main>
 
-    <footer class="bg-white border-t mt-12">
-      <div class="max-w-4xl mx-auto px-4 py-6 text-center text-sm text-gray-400">
-        © {{ new Date().getFullYear() }} SGCarPass · 汽车供应链管家 · Genuine Amaron · Singapore
+    <footer class="border-t border-gray-300 mt-12">
+      <div class="max-w-3xl mx-auto px-4 py-6 text-sm text-gray-500">
+        <p>SGCarPass Battery, Singapore. Prices are as of November 2026, GST included. Not sure which battery you have? Send a photo of the label on WhatsApp.</p>
       </div>
     </footer>
   </div>
@@ -47,7 +38,7 @@ useHead({
         url: 'https://battery.sgcarpass.com',
         telephone: '+6581525875',
         areaServed: 'Singapore',
-        description: 'Genuine Amaron car battery supplier in Singapore. Competitive prices, same-day workshop installation for all car makes and models.',
+        description: 'Car battery prices and fitment guide for Singapore, with replacement arranged on WhatsApp.',
         sameAs: [],
       }),
     },

@@ -1,0 +1,166 @@
+{
+ "asOf": "2026-11",
+ "note": "Price at the partner fitting point, incl. GST, fitting included.",
+ "items": {
+  "50B20L": {
+   "series": "Amaron HILIFE",
+   "price": 105
+  },
+  "42B20R": {
+   "series": "Amaron HILIFE",
+   "price": 105
+  },
+  "60B24L": {
+   "series": "Amaron HILIFE",
+   "price": 120
+  },
+  "60B24R": {
+   "series": "Amaron HILIFE",
+   "price": 120
+  },
+  "60B24LS": {
+   "series": "Amaron HILIFE",
+   "price": 120
+  },
+  "60B24RS": {
+   "series": "Amaron HILIFE",
+   "price": 120
+  },
+  "65B24L": {
+   "series": "Amaron PRO",
+   "price": 130
+  },
+  "65B24R": {
+   "series": "Amaron PRO",
+   "price": 130
+  },
+  "65B24LS": {
+   "series": "Amaron PRO",
+   "price": 130
+  },
+  "85D23L": {
+   "series": "Amaron HILIFE",
+   "price": 140
+  },
+  "85D23R": {
+   "series": "Amaron HILIFE",
+   "price": 140
+  },
+  "90D23L": {
+   "series": "Amaron PRO",
+   "price": 160
+  },
+  "90D23R": {
+   "series": "Amaron PRO",
+   "price": 160
+  },
+  "110D26L": {
+   "series": "Amaron PRO",
+   "price": 180
+  },
+  "80D26L": {
+   "series": "Amaron HILIFE",
+   "price": 150
+  },
+  "80D26R": {
+   "series": "Amaron HILIFE",
+   "price": 150
+  },
+  "95D26L": {
+   "series": "Amaron HILIFE",
+   "price": 160
+  },
+  "95D26R": {
+   "series": "Amaron HILIFE",
+   "price": 160
+  },
+  "105D31L": {
+   "series": "Amaron HILIFE",
+   "price": 170
+  },
+  "105D31R": {
+   "series": "Amaron HILIFE",
+   "price": 170
+  },
+  "125D31L": {
+   "series": "Amaron PRO",
+   "price": 180
+  },
+  "125D31R": {
+   "series": "Amaron PRO",
+   "price": 180
+  },
+  "95D31L": {
+   "series": "Amaron HILIFE",
+   "price": 170
+  },
+  "95D31R": {
+   "series": "Amaron HILIFE",
+   "price": 170
+  },
+  "DIN45L": {
+   "series": "Amaron PRO DIN",
+   "price": 140
+  },
+  "DIN55L": {
+   "series": "Amaron PRO DIN",
+   "price": 150
+  },
+  "DIN66L": {
+   "series": "Amaron PRO DIN",
+   "price": 160
+  },
+  "DIN74L": {
+   "series": "Amaron PRO DIN",
+   "price": 180
+  },
+  "DIN80L": {
+   "series": "Amaron PRO DIN",
+   "price": 250
+  },
+  "DIN100L": {
+   "series": "Amaron PRO DIN",
+   "price": 260
+  },
+  "AMARON EFB M42L (60B20L)": {
+   "series": "Amaron EFB",
+   "price": 140
+  },
+  "AMARON EFB N55L (80B24L)": {
+   "series": "Amaron EFB",
+   "price": 160
+  },
+  "AMARON EFB Q85 (100D23L)": {
+   "series": "Amaron EFB",
+   "price": 220
+  },
+  "AMARON EFB S95(130D26L)": {
+   "series": "Amaron EFB",
+   "price": 240
+  },
+  "AMARON EFB L3 (DIN 74L)": {
+   "series": "Amaron EFB",
+   "price": 260
+  },
+  "AMARON AGM LN1 (DIN50)": {
+   "series": "Amaron AGE Battery",
+   "price": 240
+  },
+  "AMARON AGM LN2 (DIN60)": {
+   "series": "Amaron AGE Battery",
+   "price": 260
+  },
+  "AMARON AGM LN3 (DIN70)": {
+   "series": "Amaron AGE Battery",
+   "price": 280
+  },
+  "AMARON AGM LN4 (DIN80)": {
+   "series": "Amaron AGE Battery",
+   "price": 300
+  },
+  "AMARON AGM LN5 (DIN100)": {
+   "series": "Amaron AGE Battery",
+   "price": 320
+  }
+ }
+}
