@@ -10,7 +10,7 @@
           <NuxtLink to="/price" class="text-sm text-gray-600 font-medium hover:text-blue-600">价格表</NuxtLink>
           <NuxtLink to="/eprice" class="text-sm text-gray-600 font-medium hover:text-blue-600">Exide</NuxtLink>
           <a
-            href="https://wa.me/6581525875?text=Hi%2C%20I%27d%20like%20to%20check%20battery%20price."
+            :href="waHref"
             target="_blank"
             class="text-sm text-green-600 font-medium"
           >
@@ -33,6 +33,9 @@
 </template>
 
 <script setup>
+const route = useRoute()
+// 来源标记：同一个 WhatsApp 号接两个网站，消息末尾带 (ref: sgcarpass 页面路径 位置)，客服后台据此区分渠道
+const waHref = computed(() => `https://wa.me/6581525875?text=${encodeURIComponent(`Hi, I'd like to check battery price.\n\n(ref: sgcarpass ${route.path} header)`)}`)
 useHead({
   script: [
     {
