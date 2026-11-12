@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://battery.sgcarpass.com',
     name: 'SGCarPass Battery',
+    trailingSlash: true,   // Cloudflare Pages 会把不带斜杠的网址 308 到带斜杠版，站点地图和 canonical 必须一致
   },
 
   sitemap: {

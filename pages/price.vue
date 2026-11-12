@@ -41,5 +41,5 @@ useSeoMeta({
   title: 'Amaron Battery Prices in Singapore | SGCarPass Battery',
   description: 'Amaron car battery prices in Singapore by size, GST included, fitting included. Look up your size, then ask on WhatsApp to confirm it fits your car.',
 })
-useHead({ link: [{ rel: 'canonical', href: 'https://battery.sgcarpass.com/price' }] })
+useHead({ link: [{ rel: 'canonical', href: 'https://battery.sgcarpass.com/price/' }] })
 </script>
